@@ -1,0 +1,9 @@
+name: DB-SurvivalGames
+main: DarkBytes.SurvivalGames.SurvivalGames
+version: 1.0.0
+commands:
+  donator:
+    description: Check or Toggle an user's donator status.
+    usage: /<command> <check|toggle> [user]
+    permission: survivalgames.donator
+    permission-message: Cannot perform this command!
